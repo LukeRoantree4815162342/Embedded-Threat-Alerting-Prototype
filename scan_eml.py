@@ -11,7 +11,7 @@ from gooey import Gooey, GooeyParser
 
 cwd = os.getcwd()
 
-@Gooey(program_name='Embedded Threat Alerting', image_dir='/Users/lroantree/workspaces/temp/HackDay/images')
+@Gooey(program_name='Embedded Threat Alerting', image_dir='./images')
 def main():
     outfile_name = 'QuarterlyReportEmail.eml'
 
