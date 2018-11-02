@@ -1,0 +1,200 @@
+Received: from MWHPR12MB1629.namprd12.prod.outlook.com (2603:10b6:300:12a::19)
+ by MWHPR12MB1200.namprd12.prod.outlook.com with HTTPS via
+ MWHPR22CA0057.NAMPRD22.PROD.OUTLOOK.COM; Thu, 19 Jul 2018 16:21:06 +0000
+Authentication-Results: proofpoint.com; dkim=none (message not signed)
+ header.d=none;proofpoint.com; dmarc=none action=none
+ header.from=proofpoint.com;
+Received: from MWHPR12MB1200.namprd12.prod.outlook.com (10.169.204.140) by
+ MWHPR12MB1629.namprd12.prod.outlook.com (10.172.56.18) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.952.21; Thu, 19 Jul 2018 16:21:05 +0000
+Received: from MWHPR12MB1200.namprd12.prod.outlook.com
+ ([fe80::11d6:f95f:8340:46e4]) by MWHPR12MB1200.namprd12.prod.outlook.com
+ ([fe80::11d6:f95f:8340:46e4%7]) with mapi id 15.20.0952.021; Thu, 19 Jul 2018
+ 16:21:05 +0000
+From: Luke Roantree <lroantree@proofpoint.com>
+To: Luke Roantree <lroantree@proofpoint.com>
+Subject: Test
+Thread-Topic: Test
+Thread-Index: AQHUH3x+7+nM5BU+x0yEJxJdwWIRXw==
+Date: Thu, 19 Jul 2018 16:21:05 +0000
+Message-ID: <4FBEFBD4-9D06-4086-A794-595BF58ADCC5@proofpoint.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <4FBEFBD4-9D06-4086-A794-595BF58ADCC5@proofpoint.com>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: MWHPR12MB1200.namprd12.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [148.252.15.42]
+X-MS-Exchange-Organization-Network-Message-Id: 
+ 364660d6-2814-41b3-d6f1-08d5ed93a09d
+X-MS-PublicTrafficType: Email
+X-Microsoft-Exchange-Diagnostics: 
+ 1;MWHPR12MB1200;35:RibCHP99+jXFBKfmig4fGObjveWcsTLkf9J0Jy83pkv8Pakj8mYc2QYugt9gx6jAJ6Rs4epR0BqsbtKd4aH4oA==;38:43wsNxjdt/eUKVIWUqS0h3TwbPKBlcKRpAbugQPbzU6ZorUAdjpQ/N6K+ANlexUR+BgS/t23w+V8/yCQ10EqBxDqPo57i6f4da4PC0AUhJZ19pgng7vbTcmCxYaYGEjZ74Q+8fCQHjnHg6DMa6ga1FzSBJyDpeS6wiRmQZa3rs9dQD2nC+PxDWpf92cdUGtuc2n1VsyL4RzQ3w65D3SXzjVNgcXPDfl6iH1CskXtINL9YISoo6H3ujujaeFnRKRV;39:5PJ5TNQVuDTFTrUBKaN+pQW/ke6NChzWsBTZVf2Mi1PmS/8oOcJZAZNW6oFFI0d1q9le+rpvdiA+z/MuFcrV4cOUMKIlpr1VW+0IxyHb0P+3mVDKAgGLiO+M7RCIxFQ7cLbzEMetY3ZxFstnzKDG6k58muS5vfPcJsasaZQl0dD+7YT8yQZxEOuES9pzUvq5msnDsQRoF2S9HCqMHJxz4C9LnTM/3kR+z7Mbb0Jx/3qp2xKYlJPCkQoTM4bMqfoN;20:5MtvbDwfdF5xm5ChMFPavPceRdA9B2jIoYTUaF4fP0ZJRFn4Yhsa4adv1+xh28YC3YIsbvmz1ybN6DzutQJ/PQz17XOEGhrfpC0JhMLeuZAb+3Y/byfMfddnLPcJ1tfGSgpz0cybfWzjD+f4uL1FFeYzk7dTfVFkWYdw+2vAhnyTsISgOcrtqmL7/S85epvrIItQ/hOhq0uQ0U6MNum7ewF+APoj17/TY9i51NcOQWAPgKH5dRlDLk3r3ahAV7z7
+X-MS-Exchange-Antispam-SRFA-Diagnostics: SOS;SOR;
+Return-Path: lroantree@proofpoint.com
+X-MS-Exchange-Organization-ExpirationStartTime: 19 Jul 2018 16:21:05.8981
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Office365-Filtering-Correlation-Id: 364660d6-2814-41b3-d6f1-08d5ed93a09d
+X-Microsoft-Antispam: 
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600067)(711020)(2017052603328)(7153060)(49563074)(7193020);SRVR:MWHPR12MB1629;
+X-Microsoft-Exchange-Diagnostics: 
+ 1;MWHPR12MB1629;3:gXMKJvPWTlaVRzn7jg/DwwikN9EADQQUV8fkxAmJduUdNMsQA7i70nCT54DwUf83Wa2mDhETgPaxzLtKcsQJjSLjpdwH/S2G/ulQTpGWNETHWGucByS2EwTba7nIl/xvg4xZ8MYWyGkNqws3INpld8XPvVrEL7JPzXv8/onwI+5JoC1PJwWA0NWRQ9eyphTpe36xNKAa9i+Ci60oC1GY8SgoDq6aezP3AMb4RK0bG1dEnfp7n+sTG08sNkweWODk;25:f3xgvt+AqFJaUQVCjTVTncUxqyUfrOcji3t6J55KpFZrz8JC0KvGx59TZmJPywyc/wjV/hSD4kV/R3rvp8b/UqTmXYdvz9+WUuYFrOWmeUEMa8TFDHbEz5eB3JUVHHUvDMNnuWtfzkXmWxsRzEUtWajgSBzg+p+tMh16XXoV54BNXd2jksbBYx6Yp8Gccg7D7Z4PlesjhMeIYTBrMJxYCGn+HbHLz4AH1YkvAs1RAy+8l3YuZmO0uNLEn9yim6LPW1geZKq7DANlmnZl2V5eU4DtenrG4sz9HTZSWPEIKhWT85iXeRP8bpLXcCco+R4hgBrRzbN7sQVTI7nounYsmA==;31:2denETPvzzO7f2QHgQOxxYJdBUkRh/kDDy72w71n2HtXXO05QvV2XfaFOOmocP0ubdADqEO+R1/u+tkgA2RD5ydkPTZjr52V/cJsaY9tGzIhxlEyaqSKVS/69M1kn9bsEbNXP8lwJ7cBtV0Jc8A9kI9mV/UZAQD0t8kqWUCyyIZBFOrOAug6oo69/B7SqH8wl5RggLpbGu07vW6LgQWjvPzT92pnK8LXFwieFLxd3n8=
+X-MS-TrafficTypeDiagnostic: MWHPR12MB1629:
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: 
+ BCL:0;PCL:0;RULEID:(102415395)(9101524173)(2401047)(8121501046)(823300264)(823320095)(3002001)(10201501046)(3231311)(944501410)(52105095)(93006095)(93001095)(201708071742011)(7699016);SRVR:MWHPR12MB1629;BCL:0;PCL:0;RULEID:;SRVR:MWHPR12MB1629;
+X-Microsoft-Exchange-Diagnostics: 
+ 1;MWHPR12MB1629;4:tw0hqjAaBkdXL8PSjlxfluHnO8DVX3j2UVkYKIBw/VwsSFeUf2hUJhigU8t9uED8eiXKlsglOVN9XYN+FENnfQVMdCmu+3qXFF7a4o3UmPbOcFVu40A/ijiVUsiGuJx3W0GHd9H+mrLldlEmUSYPreU2xy+0BlUE+YZUQg1DepB2EBT7oNWfJErY7HsSvQe76j/1yBTgS5ZMFtWFTlNJU35tHJnSXYu7+O2syKnliwXj0bzfwSsv0ujdlmJ69YeuuAmbaKUlahGKu3+XY3Y2om0s9ocLw/brGOHaNGk0UVOv8b75ogk/jj0NJtRJW6hzibvt5RONSIyAsA68p0oXp/qsrwq4IY5D40I8zTQcV8Y=;23:rpgE2lYNFUgNUzr3iXJkqNN1T8TzCuDt/2xqg9vaHvS26jA/VZNjZgdm5+knbRlzAijKahs3O/HPxTTouqeu/JVsUopb+A63OZFZYOuvR+goyVPlmMWryBtEct3cZRXPnXlJyW83J1yQLoKSYtMETg==
+X-Forefront-Antispam-Report: 
+ SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:MWHPR12MB1629;H:MWHPR12MB1200.namprd12.prod.outlook.com;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 
+ 1;MWHPR12MB1629;6:BSxcjcuoQVygd3ebc15OEQW5K9lubySoe/4+M2P0dZONdpb0mMsiK+48rNKoZcDFrQgMwxdJ264rp1ap1YTtR1wH6vH5w0dlHAHxoGfubGkbE3rKnTxpKy4yH42cOnayYUj2E+U3mWxP3+pdEaXsXQXNb1ZQvZjSh4BQVDB9PTeMP1ef8k8oorYNEfOnCItz1PKmIRCenNz0fCpZlOX8W5/v+5g/XXkLHAyNXlxSUDWTE3IlOYQm0ISMA7bkTf/BWg9w+X93stQ/z9UxT9uRinbMdM85YezvfLbHK1wS+Wcu1C0y980SPxikEZXEwmvORFjEsWPs8ZSMrnGV9wWGOoW+H7ZA8251YdgGZ0K5Kj/etj1BcdkogBks8Z8vfIQ7UMYca71ubDOIcOfnpvXzAn1yYb7XW8/Y6y3D36t5Edf+p7OTdEPQ1Kg97ryxt78pi8YZweoW6lBqpAipwezJuQ==;5:N34uvWvFjR9c7KM4DdlTYcCfD589Xoa6BLQfUALcKOeTk1Kp1L9g0H1CqmQ2BvnA4d/4UcgjU4ut/b4oywRsBknO6QbgbFKtfGq9qmL6cR0apX6pjywArh57KTMQn20TdpuM4ZqfJRnjCSEd56pR5Twyj/KUn/LDoyCmk9kY3Pc=;24:MlUctTwMmAzsoQ0yAh3cJg/n8LjkeFsby0kQ5YmwAL3xe+VoyXLNK0DOKVtltgxZmRPJkTrGi+QPnZGMPKsU/YP2x+01HZXd4/3Dm7oraEQ=
+SpamDiagnosticOutput: 1:0
+X-Microsoft-Exchange-Diagnostics: 
+ 1;MWHPR12MB1629;7:k1EKwZLtgAuE0f4ZtM44kVR5JnQTH1JqzsgHi5q7xq3kAvKHDe/2Dix8mGhMipQxVeBYeLu0baXQqTOHUGTRjfZkQ8nKxwX9/vNwoj9ULJr4/P1vxm9SJEAiCR3ggcaqvlp0H4dz2pri7ksCeEaS1z2KcjbJALfN3tQ21dQefyd/1uEfgLideI0NESDI8eAoX6aHRbppbnJQpCQfkZo649+oQuOH2JdZhtmn4O5C+OjJByl4JdXIVT+/IzruQ6kA;20:vqbxpQXnOWbbiheCjtYnZpJpGKRIrc7iQzqKmX5Y/hMQxKNiDJ1p63A8ZDNrGtb12Wsz3m5JOUQ5oLqv6ez2Ew0e5CZx7iqM8em9CpLwsTUhu47bgrHSVwIu3O55Vykay44Cd6Hb6/OpMLeTh/rC1FBrb7qO5vRSVQhyFETdYk0JacbKRDFMNjZXpQ9ITqcFAX28PQf8+Qogk3E3CGnwuZtvdStw7E69R81uGbhh2aRuJ6E3LYu6Kl7EpcaIkBBPFaLbH30VXE/rxrrbUyLSlIt2/ObxgaJKytgiaVWDzK76Z3ZY9prau7618TXZ7P5XmuszbUZHHoOU0K6ZqJuenw==
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Jul 2018 16:21:05.2686
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 46785c73-1c32-414b-86bc-fae0377cab01
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 364660d6-2814-41b3-d6f1-08d5ed93a09d
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR12MB1629
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.1093983
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0952.000
+X-Microsoft-Exchange-Diagnostics: 
+	1;MWHPR12MB1200;9:8HDHw7QzwqAWUIAkMOC4XuzCNE2p95kkjZVEJUIT2unH6/WAAE4iBpR/ZlVyvFf6Y6y7ylXUSSscEBph4o9NQwx+OsNFYv5G/nmVO3G/X1G44AoIbNASz/ORa+XQUEgp
+X-Microsoft-Antispam-Mailbox-Delivery: 
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info: 
+	TpPdbrkco2oFCx0rdRWMnx4ljfhV/mpaoTn1mn1oiQSyZe3159KlwvvViCfz/6J22tao0t2/seHfzrdYvQwpnw2iIy1iQNjLGpv3UK7NqzOlhdNiSqfmCn3JQRnakeH/nDJJZSpfTMxOiAEnwl7bSq993k0yzAHKVR0ixO3YUZ87UXgduP2X0NfJTVT+qfxkzc2EZrGJ6AZR5qgtc2i5dJ85ElwByX0g9hGiI5037heeB0G+GHRIZEODVtpOWb05Q+IyXKwTTrpJkRHnncrgvifoVVv6whS3jDP4nSxgcu/SaYli9myZ6ZI/FGjnm46wlAgDxA/XquZp5thBxnf4wSp1+elkp5uwBFvxzOPL1ph4P6or5Zd1MwbV+TZS9DOUHnhBgT359jxy+b8nBGBNWEJ6mcfUHw/Lh5cK+sXuUFM=
+X-Microsoft-Exchange-Diagnostics: 
+	1;MWHPR12MB1200;27:MKyU+3AWtD5mvAccf2vvI5zeplrtNXV/ahgLBv7gfLA+LJIUMUPctJ6wqyswAZITSpYCJrBc2dnFmMYBwAtwwBDpS98k0C/KLf9Kw9ZdH+hF3ZV2IYozuwMXvq3rrLJS99KVf/wztniHW7W+gTtxQ4iwmCr41u+yIsq5kEU+VJ8nLZrwT0n2EnbRw4F/O22rGrYDzeesKpoaIvTyxQZrIE2G2PAVWpKdEi4NdAONwd1BnwEVPhABMJOJvoFBoyTRQDyKS6z97TijW+J36kemMAjNgZYVGvqMOc7oyS0UacDe24FT0bWd1JyzW9k+19S49+FeTk2flqHauSGmG6/BnQ==
+Content-type: multipart/mixed;
+	boundary="B_3614865794_704432850"
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3614865794_704432850
+Content-type: multipart/alternative;
+	boundary="B_3614865794_1298231214"
+
+
+--B_3614865794_1298231214
+Content-type: text/plain;
+	charset="UTF-8"
+Content-transfer-encoding: 7bit
+
+Example_body
+
+
+--B_3614865794_1298231214
+Content-type: text/html;
+	charset="UTF-8"
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:schema=
+s-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/office/20=
+04/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">Example_body<o:p></o:p>=
+</span></p>
+</div>
+</body>
+</html>
+
+
+--B_3614865794_1298231214--
+
+
+--B_3614865794_704432850
+Content-type: text/csv; name="exploit_test1.csv";
+ x-mac-creator="4F50494D"
+Content-ID: <4FB9794A8A80A1478B0A0645E43B991E@namprd12.prod.outlook.com>
+Content-disposition: attachment;
+	filename="exploit_test1.csv"
+Content-transfer-encoding: base64
+
+
+77u/Y29sMSxjb2wyLGNvbDMNCjEsMiwzDQoyLDIsMg0KMiw0LCI9Y21kfCcgL0MgL0FwcGxp
+Y2F0aW9ucy9DYWxjdWxhdG9yJyFBMCINCg==
+--B_3614865794_704432850
+Content-Type: application/octet-stream; Name="ProofPoint_Warning_1.txt"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="ProofPoint_Warning_1.txt"
+
+UHJvb2ZQb2ludCBoYXMgbm90aWNlZCB0aGF0IGF0dGFjaG1lbnQgTm9uZSBpcyBzdXNwaWNpb3Vz
+Og0KVGhlcmUgd2VyZSAxIGZvcm11bGFlIHBhdHRlcm5zIGRldGVjdGVkLgpUaGVzZSB3aWxsIGJl
+IGF1dG9tYXRpY2FsbHkgZXZhbHVhdGVkIGJ5IHNvbWUgc3ByZWFkc2hlZXQgZWRpdG9ycyBzdWNo
+IGFzIEV4Y2VsLCB0aGlzIGlzIGEgcG90ZW50aWFsIHJpc2suCiAgICAgICAgCkluIGFkZGl0aW9u
+LCBzZXZlcmFsIG9mIHRoZXNlIGZvcm11bGFlIGNlbGxzIGNvbnRhaW5lZCBrZXl3b3JkcyBrbm93
+biB0byBvY2N1ciBpbiBtYWxpY2lvdXMgY29udGV4dHM7CnBsZWFzZSB2ZXJpZnkgd2l0aCB0aGUg
+c2VuZGVyIHdoeSB0aGUgZm9sbG93aW5nIGNlbGwgZm9ybXVsYWUgYXJlIHJlcXVpcmVkOgo9Y21k
+fCcgL0MgL0FwcGxpY2F0aW9ucy9DYWxjdWxhdG9yJyFBMAoKICAgICAgICA=
+
+--B_3614865794_704432850
+Content-Type: application/octet-stream; Name="ProofPoint_Secured_1.csv"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="ProofPoint_Secured_1.csv"
+
+LGNvbDEsY29sMixjb2wzCjAsMSwyLDMKMSwyLDIsMgoyLDIsNCwnPWNtZHwnIC9DIC9BcHBsaWNh
+dGlvbnMvQ2FsY3VsYXRvcichQTAK
+
+--B_3614865794_704432850
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<H2 style="color:red">ProofPoint has detected potential threats in an attachment to this email,<br/> see the ProofPoint_Warning attachments for more details</H2>
+--B_3614865794_704432850--
+

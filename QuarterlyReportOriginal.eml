@@ -1,0 +1,67 @@
+Received: from MWHPR12MB1168.namprd12.prod.outlook.com (2603:10b6:300:2c::19) by MWHPR12MB1200.namprd12.prod.outlook.com with HTTPS via MWHPR10CA0057.NAMPRD10.PROD.OUTLOOK.COM; Tue, 24 Jul 2018 08:37:05 +0000Authentication-Results: proofpoint.com; dkim=none (message not signed) header.d=none;proofpoint.com; dmarc=none action=none header.from=proofpoint.com;Received: from MWHPR12MB1200.namprd12.prod.outlook.com (10.169.204.140) by MWHPR12MB1168.namprd12.prod.outlook.com (10.169.204.20) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.973.16; Tue, 24 Jul 2018 08:37:04 +0000Received: from MWHPR12MB1200.namprd12.prod.outlook.com ([fe80::11d6:f95f:8340:46e4]) by MWHPR12MB1200.namprd12.prod.outlook.com ([fe80::11d6:f95f:8340:46e4%8]) with mapi id 15.20.0973.022; Tue, 24 Jul 2018 08:37:04 +0000From: Luke Roantree <lroantree@proofpoint.com>To: Luke Roantree <lroantree@proofpoint.com>Subject: Hey, here's the Q1-3 report summaryThread-Topic: Hey, here's the Q1-3 report summaryThread-Index: AQHUIyl/YceBezAOgkCKjtpEM98oig==Date: Tue, 24 Jul 2018 08:37:04 +0000Message-ID: <9B457D26-EA30-450E-95FB-87C3125C8C99@proofpoint.com>Accept-Language: en-USContent-Language: en-USX-MS-Has-Attach: yesX-MS-Exchange-Organization-SCL: -1X-MS-TNEF-Correlator: <9B457D26-EA30-450E-95FB-87C3125C8C99@proofpoint.com>MIME-Version: 1.0X-MS-Exchange-Organization-MessageDirectionality: OriginatingX-MS-Exchange-Organization-AuthSource: MWHPR12MB1200.namprd12.prod.outlook.comX-MS-Exchange-Organization-AuthAs: InternalX-MS-Exchange-Organization-AuthMechanism: 04X-Originating-IP: [89.185.154.189]X-MS-Exchange-Organization-Network-Message-Id: 2b2b1312-86de-4af1-041e-08d5f140a21aX-MS-PublicTrafficType: EmailX-Microsoft-Exchange-Diagnostics: 1;MWHPR12MB1200;35:ELIH7dwZunfdLxtov/CiAZURZY71rYU5DYFrmzxE/RNH+ur2YD5jHCw1wf+dgiNApFXWOuGtKHYdHOaU0F1tlg==;38:gWkjFCCyc2T85dxgOG2WkIRRrJZmWHcaL89CSTQd5mfg8NWZ5lAz9HraUP9ghHcpuqfXDBV7AkDlbJMJCxUVTpXDiwRm0qhetV6QkoCwNLF52O548RC+RYpDaZQazJrEToHV6RTIoqur63h6bOdZGDzrmq9WYFZFTEX5/tZTHs0Z02CZQRoDcTnQTUUHhuU7txsf37DmWm3awCTP5PdNZa+rAavHe6c7PlxiabWkVAIGmZL0tP9/VbUfGT1oYa8d;39:OjqF86pxce5XKjtvHnkqRyxeL8UNPoVm01wt7WvlKDsIgAaGPSdMTZS+XNCFKmjSy4nyJQh4e6CCByPPZHNZekHn4/gGn05YlMyGXJI3N2c7l5vSAC62FzOfRm19LlKomROCTLkY4n8h0uIt13AudU1v2nncamQm/DkEOEHbG3W0azZb4TzpD++sZFGFSUpPCHEK1SitM+Ve7lBCilrKV/gukRMzxbo/27nrxQMvRxQVC746E3+pwH7NXwRoU6sQ;20:6J5xGPuKgQwdViHfgbDphRMennBzhcN/kHLLGgfQ5T2DPtekGEIf8Lo9RGbhuRHFON6xwQ9w9iF4ALOm+4vUUkctmlcTxK2lOaIGU3bzeS/EFD1ton2mlXvMsbd2r552p1E977SHPwAmDtOqPqakfDlSYBKJG5ZTsHgNnq+s91LH40TVMkSMcc9zwcwb2IzOphZXGl6/1TGgFbmgf7RzomzNPI4S6gWS8bcFtczsqSyIgxhbRbcknd6nxJ7E8mNTX-MS-Exchange-Antispam-SRFA-Diagnostics: SOS;SOR;Return-Path: lroantree@proofpoint.comX-MS-Exchange-Organization-ExpirationStartTime: 24 Jul 2018 08:37:04.6051 (UTC)X-MS-Exchange-Organization-ExpirationStartTimeReason: Original SubmitX-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000X-MS-Exchange-Organization-ExpirationIntervalReason: Original SubmitX-MS-Office365-Filtering-Correlation-Id: 2b2b1312-86de-4af1-041e-08d5f140a21aX-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(7020095)(4652040)(8989117)(5600073)(711020)(2017052603328)(7153060)(49563074)(7193020);SRVR:MWHPR12MB1168;X-Microsoft-Exchange-Diagnostics: 1;MWHPR12MB1168;3:1gVg+Ys7uZH2PYjW9JBUTgb4Kq1Tw81fnLbVmnpI4aPN9M6Z8mTK+gXAub6AinvRE4fzfnRQvFS/qiJJaX0BJcklFEX37h0fAKgfTyrMuCD5RqIfJgMAjBledXS2Q+9YqwVr5Cc6XCaMAalf3r8NYw3Lm1CubBEsoBehJAOxbQ8dwEpM1TCBYLivVBDSSSbIA0V7i812esU+cpNnA+fNey4nUx1vW9rDPchqa/SYKeRKDdDm5fAk3GKs4rHKjikk;25:ilJT4I5FvwJ6gEarIpA5pxddmbDI7GdvTJ0GDVCRIwyKvmeo9GFH99FQ45NgH2kkPrO1/XJuo9H8gZqQK/4mBToPtp7trAbVcgqLKNa+8rP3iUMmJVETPDkjRTf4yp/vguqCAg9i85+OL1E6KKRs9m1lbQWjHMiTbdcBU6enD/u1bwLMpL1vDUF2pAswmTxaBkHMfB6NDcqbqbJvq461G+6vywjvIDyquEKLBUuA5+iYLf9O4ZN0OzbNaYrDDWrlXbDI10keD22oJ/NA0YDYYz6v/EkGsDtdQqaRQdLwWc2n/Fik6/ysLJ0YjXRQ+0q33EHprEg1vrnd9D0mW83ujA==;31:Ka07rVGVv6Qbo5Ct4NSRs8dbY+dl+zUrUrkOFYQvogZu5vo2fvO8yt3NIsafl0Aoh7UTQZsNGq2N+Tj25EnsbM46I0X/qlJ2GU44CKjU0qF3OSajX181VPSQZCOczAAQjMDydZD/anIdfdlzBk37KbmXV+2NasbVsSV1ggpjR25/xx74pC4xMyaQ1u+k7lL63heKjyuqgIGtBHquf2Koi3zuYrygRYZY3fbqVMouzWY=X-MS-TrafficTypeDiagnostic: MWHPR12MB1168:X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(20558992708506)(21748063052155);X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(102415395)(9101524173)(2401047)(8121501046)(823300264)(823320095)(93006095)(93001095)(3231311)(944501410)(52105095)(3002001)(10201501046)(201708071742011)(7699016);SRVR:MWHPR12MB1168;BCL:0;PCL:0;RULEID:;SRVR:MWHPR12MB1168;X-Microsoft-Exchange-Diagnostics: 1;MWHPR12MB1168;4:/0dOrZQXGatEuMR0K64I8eet1u2mH2tCxDgC01fRIxb43f5WSoEvseTf98INyyevNQNqSHn7N7r4hRlp/nTmhNW+/Vuwh0cPHr+lbw2xQdZtS399XzGZrN0/xKWYzne9gHgt8E9r22svjWxXKwJOng5sPoSW6fxLftxHPWxMzA9IvvXQUIWHV6rCISCxdm4ZsUGA5Aa6MuzQpFyw7YSzeqnCq94Jc9woIGqYUg1+IqWkW2IRb2s5WRPbR6Wukk9s/LE+QA5YdAXcUKlzAOEqQrL4RBrjDEd+3Ob0U75+fo1nKbbnW5iSi7mcc9W/hHOkq3zcQd+1xPaslvZYDch3l9mA/5unQNi3bdRPA1xh5V+jeL8pdeyQfSN2j27K6Kr4;23:3O46IYekCaXyc3AGWh6Xj7WHjOLyAq8i+LP1wrAzfJst7u5wUX7if9gGh7B38x+K/kGXb0qBIjJuwGuDsLJ9aHX6VyUoM7sqZqf73DE8Zri9cSDj6HWBzzZjmdQTupy0/GjB1rLvhZ6hyZ94oZV7DQ==X-Forefront-Antispam-Report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:MWHPR12MB1168;H:MWHPR12MB1200.namprd12.prod.outlook.com;FPR:;SPF:None;LANG:en;X-Microsoft-Exchange-Diagnostics: 1;MWHPR12MB1168;6:fQjI4L/qqv77juDtFGcu0GHZjP1AFB4BQZjABNDS25o0NfAvrbnuSuWrlltDg57O+ErrHlk0nX7H8FLg6kNoMyfq15rWV4d1KI+V2GEJhuAOlDuhKAaLeZb0vFdZAi6hWWo0hTYYJHX0jBBmpMtk3G8SRL1VH7ylLaPTuuqBTWAe5UNCqfzMNz2D0orEQ8DGnpFpDwo8hAATiWMDDGwD7hZu6HJ8zDtesMlKsLAQxKIavVM662cIFSeSHtuqXI4IGVHlg3WfOrbpUNay69md5aw1xoBMdvLONiFRwCj3du0lLDPjYqVgFEvbfhVibJxsloDliDTzNxd6Iy9vMjLcEnq4deIW1CfUKDA87DIKWK9GeqtciA85450tGZJR++BS8gTChjvQRbQ3QjDZaaMTYoqYv+j4oHQAGvCeHUt5P5MRhQ+bC8wgWDAoZpu8UFGfM34tZFI4DHLTLgkojUb7/w==;5:pD+XbBRtM8GkHw/vZBDDuZHZ+vduDjXScXV9Xs3PrqQ8ltOioZC72y6w9ou8zfE3N0imkIepBOKNuHbGFiECejWQhfNcEuunbd/gHLbXWXJd8f6NePP5821/pr/fpyQPcZq82gpYCEI+wpTthYURuG/c6KkRnFBFRnIIX4uLiew=;7:oJ30cU2334NmNkbKeRpcGorp7UkZegShYOoNTdKMFU5nI1AsdALYZpFW4B53/1VRrxCRTBQgHgDFlEFKjS2Zo0LDBnVR93o07styNFayQGdimpmSmy+PpdceXA0g+Pgx0TFcjWBUyr9vsspYCPcygxUvu21tyjRZgkxmKypVO4mfsl/xSELp6Bl7uiLg1gbUCspv19ViUlUrDXDTs3qhN42DXSQ93MsyejyrkHIWSxKmw55bXjVtYWNzn+m+7KNuSpamDiagnosticOutput: 1:0X-Microsoft-Exchange-Diagnostics: 1;MWHPR12MB1168;20:8h5ayrddhjCmxpNMTsypgGuloHi5NW6lGBS4Td+rFHjLfih/GMX4JHxAFZpLva4u/Z6Y3EYzmoOZu5/k+pBOs6HdCUnjfcMjuZoWdV6VqzJG7yZ2Wae7qae0rQblhpsVAGwv3xdFUwQ7sl+1Ak/Gg3V/ldic6C+etJvtdohV3eLBpWewnk/3iIsr3OG8aJcjc1BsxEe+1c4mf+g5TY2VvqXW6A9kQFSWMdvB3wA5ge1irj/F1ohqqdD4BOwO/UMXX-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jul 2018 08:37:04.1637 (UTC)X-MS-Exchange-CrossTenant-FromEntityHeader: HostedX-MS-Exchange-CrossTenant-Id: 46785c73-1c32-414b-86bc-fae0377cab01X-MS-Exchange-CrossTenant-Network-Message-Id: 2b2b1312-86de-4af1-041e-08d5f140a21aX-MS-Exchange-Transport-CrossTenantHeadersStamped: MWHPR12MB1168X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.8125299X-MS-Exchange-Processed-By-BccFoldering: 15.20.0973.010X-Microsoft-Exchange-Diagnostics:	1;MWHPR12MB1200;9:f/kIJ0fwRMYxN9oo9AEvKpJLwirklUjPBV0JgohBdyaBDW/UNAjnpZhiAFgl7yCuK22cs3YP75nEE0yYJx7//QiSP/f9ZaXN7BgXTgvuEr0cYgC3EWcNoEuCg2fL4OYpX-Microsoft-Antispam-Mailbox-Delivery:	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(706158);X-Microsoft-Antispam-Message-Info:	dEcMJcsxFU+01KvTnmDld7u9j9VRbrUjZ7Fix3/bln0m2deuh3tMCI/aHctKVJU+Qn/lET1NeonslpJLViytqAzhJY6yX/3i8EtKemhnQq7as/V1/WGQHwXsT6TJKNmmYeSvZFUpQ0jNV/73IaFrCEenTzDwJHbkwX43l7CQDjHdl9xOEZ8k4RvpEFXyx5/h2GU9z9NYUo0itgT1TAmxhruepYzcene7lcRrWuWje4/nKWL0WpinhwWvsNKbnXY66muy3ap3svLGKe8Qw/8hypCY9vLxXA05gG2qEu2y6IJg3Xw4Q4J29QNRmDS9Fx3lOJbZkztlKxEbCSuq3nf2pbvZBrku+WUDfj2mQdITjDdJYawX4awKKUkgDS3mk6KpviBxy9UvZ5ap9wOEu7z6sHKtiSux2g5JmWenLbMRJKg=X-Microsoft-Exchange-Diagnostics:	1;MWHPR12MB1200;27:9IyVVWQrDx5ty2HItk426LIH+4IWRqzXYX67Vz8Ksd/53r4cfO5G2cu8FvuJgOF0lUjgYstPHZ6VLLytxdHzOVc04X0Wjx1DGH8nCPkNYcMqNXe6BUf6k2omzziCqvtq65sYJJrd8vyMtzWeFJR9omqyu95eJfdljmfyE7XQjeGVGGogF321TzFSzVZF9OFh5X4uhG7l+3VjrZNTlJydUU8g+KZyht8g0Fl0gun3RsqKjKMk4aDF8wxCGmq1ujI3GRyKfO26jZmZIxjTp6ArAYKGBzuFvOF1uilxs5eyaccYZLlwzjZbsOkmL/hyJV/XymDJByCu2RGmBsp/NwYaKQ==Content-type: multipart/mixed;	boundary="B_3615270165_1377514684"> This message is in MIME format. Since your mail reader does not understandthis format, some or all of this message may not be legible.--B_3615270165_1377514684Content-type: multipart/alternative;	boundary="B_3615270165_1295279090"--B_3615270165_1295279090Content-type: text/plain;	charset="UTF-8"Content-transfer-encoding: quoted-printableHey,=20I=E2=80=99ve attached a .csv file with the first three quarterly reports, you sho=
+uld be able to open it in Excel without issue,=20it might throw up errors but that=E2=80=99s just complaining that it=E2=80=99s not a pr=
+oper Excel format =E2=80=93 ignore them!=20Best Regards,Thomas Gabriel--B_3615270165_1295279090Content-type: text/html;	charset="UTF-8"Content-transfer-encoding: quoted-printable<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:schema=
+s-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/office/20=
+04/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">Hey,<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt"><o:p>&nbsp;</o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">I=E2=80=99ve attached a .csv =
+file with the first three quarterly reports, you should be able to open it i=
+n Excel without issue,
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">it might throw up error=
+s but that=E2=80=99s just complaining that it=E2=80=99s not a proper Excel format =E2=80=93 ig=
+nore them!<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt"><o:p>&nbsp;</o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">Best Regards,<o:p></o:p=
+></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt">Thomas Gabriel<o:p></o:=
+p></span></p>
+</div>
+</body>
+</html>
+--B_3615270165_1295279090----B_3615270165_1377514684Content-type: text/csv; name="evil_file.csv"; x-mac-creator="4F50494D"Content-ID: <1536798AEE89E54C863E2087083D6F9A@namprd12.prod.outlook.com>Content-disposition: attachment;	filename="evil_file.csv"Content-transfer-encoding: base64UXVhcnRlcjEsUXVhcnRlcjIsUXVhcnRlcjMKMSwyLDMKMTEsMjIsMzMKMTMsMjksIj1IWVBFUkxJTksoJ2JhZHRoaW5nLnNoJywnZXhwbG9pdCcpIgoxLDEsIj0yKzIrY21kfCcvYmluL2Jhc2ggZWNobyB0ZXN0JyFBMCIK--B_3615270165_1377514684--
